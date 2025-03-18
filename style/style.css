@@ -97,7 +97,7 @@
     border-style: solid;
 }
 
-.article h2{
+.article h2, #coy-type h2{
     text-align: center;
     font-size: 40px;
     border-width: 2px;
@@ -116,4 +116,11 @@
     font-size: 1.5em;
     background-color: aquamarine;
     display: inline-block; 
+}
+#cow-img {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    width: 30px;
+    gap: 10px;
 }
